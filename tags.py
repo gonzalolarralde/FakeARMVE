@@ -16,7 +16,7 @@ struct_tag_apertura = Struct("TAG_APERTURA", UBInt16("num"), UBInt8("hour"), UBI
                              Array(lambda c: c.people, Bytes("types", 1)), \
                              Array(lambda c: c.people, Bytes("ids", 4)))
 
-TOKEN = '1C'
+TOKEN = '97'
 
 TAG_TYPE_TO_NAME = {
     0: 'TAG_VACIO',
